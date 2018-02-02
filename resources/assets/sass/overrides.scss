@@ -1,0 +1,162 @@
+html, body {
+  background-color: white;
+  font-family: 'Ubuntu', sans-serif;
+  color:#323232;
+  font-size:15px;
+}
+
+.navbar-collapse {
+  max-height: 305px;
+  overflow-y: auto;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:70px;
+}
+
+.navbar-default {
+  background: #eb4b3b;
+  border-bottom:3px solid #c32c1d;
+}
+
+.btn {
+  border-radius:4px!important;
+  text-transform: uppercase!important;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus {
+  border-color: #eb4b3b!important;
+  color:white!important;
+  background-color: #eb4b3b!important;
+  border-bottom:3px solid #c32c1d!important;
+}
+
+.btn-primary:focus {
+  border-bottom: none!important;
+  margin-bottom:3px!important;
+  position:relative!important;
+  top:3px!important;
+}
+
+.modal-footer {
+  text-align: left;
+  background-color: #F2F2F2;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.modal-header {
+  background-color: #F2F2F2;
+}
+
+.btn-default:hover {
+  background-color: white!important;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  margin:0px;
+}
+
+.input-group-addon {
+  border-radius:0px;
+}
+
+.navbar-brand {
+  padding: 24px 15px;
+  font-size: 27px;
+  font-weight: bold;
+
+  span {
+    font-weight:300;
+  }
+}
+
+a.dropdown-toggle {
+  padding-top:24px!important;
+  padding-bottom:24px!important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:white;
+  padding-top:24px!important;
+  padding-bottom:24px!important;
+  font-size:18px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color:white;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color:white;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #303d45!important;
+  color:white!important;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  color:#f2f2f2;
+}
+
+.input-group .fa {
+  width:18px;
+}
+
+.dropdown-menu {
+  background-color: #303d45;
+  top:69px;
+}
+
+.dropdown-menu > li > a {
+  color:#9A9895;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color:#263137;
+}
+
+.navbar-toggle {
+  padding:20px 10px;
+}
+
+.navbar-default .navbar-toggle {
+  border:none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.help-block {
+  margin-bottom: 0px;
+}
+
+input, button, select, textarea {
+  border-radius: 4px!important;
+}
+
+.input-group-addon {
+  border-top-left-radius: 4px!important;
+  border-bottom-left-radius: 4px!important;
+}
+
+label {
+  font-weight: 500;
+}
+
+.label-danger {
+  background-color: #eb4b3b;
+}

@@ -1,0 +1,132 @@
+$breakpoint-mobile: 481px;
+
+@media screen and (min-width: $breakpoint-mobile) {
+
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+  html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
+  }
+
+  .not-on-mobile {
+    display:none;
+  }
+
+  .mobile-only {
+    display:block;
+  }
+
+  .not-dashboard {
+    margin:0px;
+    padding:15px 0px;
+  }
+
+  .intro {
+    margin-top:-20px;
+
+    h1 {
+      font-size: 21px;
+    }
+
+    h2 {
+      display: none;
+    }
+
+    .btn {
+      font-size: 18px;
+    }
+  }
+
+  .features {
+    padding:0px;
+
+    h4 {
+      font-size:18px;
+    }
+
+    .feature {
+      padding:15px 0px;
+
+      p {
+        font-size:15px;
+      }
+    }
+  }
+
+  .mobile-15-top {
+    padding-top:30px;
+  }
+
+  .navbar {
+    height:50px;
+  }
+
+  .navbar-toggle {
+    padding: 9px 10px;
+  }
+
+  .navbar-brand {
+    padding: 14px 15px;
+    font-size: 21px;
+  }
+
+  .payment-plans-header {
+    width:100%;
+    margin-top: 50px;
+
+    h1 {
+      font-size:21px;
+    }
+
+    p {
+      font-size:15px;
+    }
+  }
+
+  .get-started-header p {
+    font-size:15px;
+  }
+
+  .content-scroll {
+    top:50px;
+    height: auto;
+  }
+
+  .mobile-dashboard-button {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: -10px;
+  }
+
+  .day {
+    margin-top:0px;
+    margin-bottom:9px;
+  }
+
+  .gallery-item {
+    width:100%;
+    padding:0px;
+  }
+
+  .dashboard-entry {
+    padding: 24px 0px;
+  }
+
+  button.orange-button, a.orange-button {
+    padding:6px;
+  }
+
+  .customer-field {
+    width:100%;
+  }
+
+}
